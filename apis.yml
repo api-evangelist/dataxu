@@ -1,22 +1,66 @@
 aid: dataxu
 name: Dataxu
-description: Dataxu is a company surfaced as a portfolio company of menlo-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  DataXu was a Boston-based programmatic advertising technology company, founded
+  in 2009, that built a cloud-based demand-side platform (DSP) for automated,
+  data-driven media buying across display, video, mobile, and connected TV. The
+  company was acquired by Roku in 2019 and its technology was absorbed into
+  Roku's OneView advertising platform (now Roku Ads). DataXu no longer operates
+  as an independent brand: its primary domain (dataxu.com) 301-redirects into
+  Roku's advertising site, and there is no independent DataXu developer portal,
+  public API, SDK, or documentation surface. This profile is retained in the API
+  Evangelist network as a historical / acquired-company record surfaced from the
+  Menlo Ventures portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/dataxu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - menlo-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-company-no-independent-api
+x-status: acquired
+x-acquired-by: roku
+x-acquired-year: '2019'
+x-successor-product: Roku Ads (formerly OneView)
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Advertising
+- AdTech
+- Programmatic Advertising
+- Demand-Side Platform
+- Connected TV
+- Acquired
+- Roku
+image: https://raw.githubusercontent.com/api-evangelist/dataxu/refs/heads/main/dataxu.png
 apis: []
+common:
+- type: Website
+  url: https://www.dataxu.com
+  name: DataXu Website (redirects to Roku Advertising)
+- type: Acquisition
+  url: https://advertising.roku.com/dataxu
+  name: Absorbed into Roku Advertising (OneView / Roku Ads)
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
