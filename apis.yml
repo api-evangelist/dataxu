@@ -59,6 +59,11 @@ tags:
 image: https://raw.githubusercontent.com/api-evangelist/dataxu/refs/heads/main/dataxu.png
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/roku/
+  name: Roku
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Roku in 2019 and its technology was absorbed into Roku's OneView advertising platform (now Roku Ads)."
 - type: Website
   url: https://www.dataxu.com
   name: DataXu Website (redirects to Roku Advertising)
